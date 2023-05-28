@@ -11,7 +11,6 @@ class CycleSwap {
 
         array[0] = lastElement;
     }
-
     static void cycleSwap(int[] array, int shift) {
         if (array.length <= 1) {
             return;
